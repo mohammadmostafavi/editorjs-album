@@ -1,0 +1,44 @@
+.slide-plus-holder{
+  cursor: pointer;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  background: #eee url('data:image/svg+xml;utf8,<svg xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plus"></svg>')  no-repeat;
+  background-size: 5em;
+  border: 1px solid #ccc;
+}
+.slide-plus-holder .icon--plus{
+  margin-top: 1.3em;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.cdx-slider__picture {
+  display: inline-block;
+  position: relative;
+  width: 4em;
+  height: 4em;
+}
+.cdx-slider__picture .delete-button{
+  color: #FFF;
+  cursor: pointer;
+  position: absolute;
+  top:0;
+  right:0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255,0,0,0);
+  opacity: 0;
+  padding-top: 1.2em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+.cdx-slider__picture .delete-button:hover{
+  background-color: rgba(255,0,0,.5);
+  opacity: 1;
+}
+.cdx-slider__picture img{
+  object-fit: cover;
+  width: 4em;
+  height: 4em;
+}
